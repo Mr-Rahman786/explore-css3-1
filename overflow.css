@@ -1,3 +1,26 @@
 article{
-    width: 50%;
+    display: flex;
+    padding-right: 5px;
+    margin-left: 20%;
+}
+.first-div{
+    width: 30%;
+    height: 400px;
+    border: 5px solid greenyellow;
+    padding: 30px;
+    padding-left:5% ;
+    margin-left: 5%;
+    border-radius:10px ;
+    overflow-y: scroll;
+    border-right: 5px solid black;
+    background-image: linear-gradient(grey,lightblue,seagreen,rgb(245, 188, 188));
+    
+}
+.second-div{
+    width: 30%;
+    height: 200px;
+    overflow-y: scroll;
+    border: 5px solid rgb(0, 247, 255);
+    padding: 30px;
+    border-radius: 10px;
 }
